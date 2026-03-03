@@ -392,6 +392,7 @@ section{
     font-size: 1.7rem;
     color: var(--black);
     border: var(--border);
+    border-radius: 5px;
 }
 
 .order form .box-container .box .inputBox input::placeholder,
@@ -407,10 +408,11 @@ section{
 
 .order form .box-container .box .inputBox input:focus::placeholder,
 .order form .box-container .box .inputBox textarea:focus::placeholder{
-    color: #ccc;
+   color: #ccc;
 }
 
 .order form .box-container .box .inputBox textarea{
+    border-radius: 5px;
     height: 20rem;
     resize: none;
 }
@@ -430,7 +432,6 @@ section{
 /* footer */
 
 .footer{
-    background: url('Images/footer.png');
     margin-top: 2rem;
     text-align: center;
     background-position: center;
@@ -469,7 +470,6 @@ section{
 .footer .icons-container .icons p{
     line-height: 1.5;
     font-size: 1.7rem;
-    color: #a6a9ab;
     text-transform: none;
 }
 
